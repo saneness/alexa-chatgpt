@@ -34,7 +34,7 @@ const ChatGPTIntentHandler = {
         const question = Alexa.getSlotValue(handlerInput.requestEnvelope, 'question');
         
         const response = await openai.createCompletion({
-            model: 'text-davinci-003',
+            model: 'gpt-3.5-turbo',
             prompt: question,
             max_tokens: 2000, 
         });
