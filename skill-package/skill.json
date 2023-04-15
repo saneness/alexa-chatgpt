@@ -1,0 +1,30 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-GB": {
+          "summary": "Sample Short Description",
+          "examplePhrases": [
+            "Alexa open chatbot",
+            "hello",
+            "help"
+          ],
+          "name": "ChatGPT Skill",
+          "description": "Sample Full Description"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:eu-west-1:373422824903:function:ask-chatgptskill-default-default-1681579348849"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
